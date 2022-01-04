@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { PageAccueilComponent } from './pages/page-accueil/page-accueil.component';
+import { PageDetailsComponent } from './pages/page-details/page-details.component';
+import { PagePanierComponent } from './pages/page-panier/page-panier.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { FilterSideBarComponent } from './components/filter-side-bar/filter-side-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    PageAccueilComponent,
+    PageDetailsComponent,
+    PagePanierComponent,
+    PageNotFoundComponent,
+    FilterSideBarComponent
   ],
   imports: [
     BrowserModule,
