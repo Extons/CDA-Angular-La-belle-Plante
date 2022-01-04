@@ -17,4 +17,7 @@ export class FilterSideBarComponent implements OnInit {
 
   }
 
+  public onChangeValue(valueEvent : any) : void{
+    console.log(valueEvent);
+  }
 }

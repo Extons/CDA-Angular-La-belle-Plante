@@ -10,6 +10,11 @@ import { PagePanierComponent } from './pages/page-panier/page-panier.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FilterSideBarComponent } from './components/filter-side-bar/filter-side-bar.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { CardPlantComponent } from './components/card-plant/card-plant.component';
+import { IconComponent } from './components/icon/icon.component';
+import { AvisBarComponent } from './components/avis-bar/avis-bar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +23,15 @@ import { FilterSideBarComponent } from './components/filter-side-bar/filter-side
     PageDetailsComponent,
     PagePanierComponent,
     PageNotFoundComponent,
-    FilterSideBarComponent
+    FilterSideBarComponent,
+    CardPlantComponent,
+    IconComponent,
+    AvisBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

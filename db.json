@@ -1,4 +1,5 @@
-export const list_products = [
+{
+  "list_products": [
   {
       "product_id": "952438",
       "product_name": "Anthurium, pot D12cm",
@@ -5760,3 +5761,4 @@ export const list_products = [
       "product_web_only": "oui"
   }
 ]
+}
